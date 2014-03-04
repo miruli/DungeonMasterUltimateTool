@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mastertool" version="3">
+  <DEPS>
+    <ID name="mastertool" mc="Package" uid="420b3171-c905-4dfb-ba4b-6630f755780e"/>
+    <COMPID name="domain" mc="Package" uid="86d00391-a2b2-479a-8cb3-c7917e90cfd5"/>
+    <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="mastertool" mc="Package" uid="420b3171-c905-4dfb-ba4b-6630f755780e"/>
+    <PID name="MasterTool" mc="Project" uid="0eccf8fb-3ab2-493c-8100-e5b6b6bdac64"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mastertool]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="domain" mc="Package" uid="86d00391-a2b2-479a-8cb3-c7917e90cfd5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

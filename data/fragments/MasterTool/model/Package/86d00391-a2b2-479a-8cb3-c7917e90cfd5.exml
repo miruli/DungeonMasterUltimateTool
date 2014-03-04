@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="domain" version="3">
+  <DEPS>
+    <ID name="domain" mc="Package" uid="86d00391-a2b2-479a-8cb3-c7917e90cfd5"/>
+    <COMPID name="Character" mc="Class" uid="1fcbd803-d25d-40b9-a4d1-9b45555fbdc2"/>
+    <COMPID name="Item" mc="Class" uid="d3e28ffd-053d-44d7-895b-4dc7e6b7dcbc"/>
+    <COMPID name="Location" mc="Class" uid="ec87198b-bf5e-4966-99c6-785f55be8599"/>
+    <COMPID name="Service" mc="Class" uid="8bd3621b-94df-4fb7-8f6b-33b281936e7e"/>
+    <COMPID name="Shop" mc="Class" uid="9045ed84-f2e3-4c82-8412-687e62821bba"/>
+    <COMPID name="Vendor" mc="Class" uid="c9f5154b-1f51-4617-860b-da26345213ab"/>
+    <COMPID name="Wallet" mc="Class" uid="b113548b-ca7a-4d56-91c5-f6e2010bffa2"/>
+    <COMPID name="domain Class diagram" mc="ClassDiagram" uid="c21259d8-d517-4615-af1d-e691874e12ce"/>
+    <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="domain" mc="Package" uid="86d00391-a2b2-479a-8cb3-c7917e90cfd5"/>
+    <PID name="mastertool" mc="Package" uid="420b3171-c905-4dfb-ba4b-6630f755780e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[domain]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Vendor" mc="Class" uid="c9f5154b-1f51-4617-860b-da26345213ab"/>
+        <COMPID name="Shop" mc="Class" uid="9045ed84-f2e3-4c82-8412-687e62821bba"/>
+        <COMPID name="Item" mc="Class" uid="d3e28ffd-053d-44d7-895b-4dc7e6b7dcbc"/>
+        <COMPID name="Character" mc="Class" uid="1fcbd803-d25d-40b9-a4d1-9b45555fbdc2"/>
+        <COMPID name="Service" mc="Class" uid="8bd3621b-94df-4fb7-8f6b-33b281936e7e"/>
+        <COMPID name="Location" mc="Class" uid="ec87198b-bf5e-4966-99c6-785f55be8599"/>
+        <COMPID name="Wallet" mc="Class" uid="b113548b-ca7a-4d56-91c5-f6e2010bffa2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="domain Class diagram" mc="ClassDiagram" uid="c21259d8-d517-4615-af1d-e691874e12ce"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
